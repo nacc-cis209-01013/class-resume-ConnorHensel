@@ -2,7 +2,7 @@
 # baseURL: 'http://example.org/'
 relativeURLs: true
 languageCode: en
-title: Example Resume
+title: Connor Hensel
 theme: hugo-devresume-theme
 params:
   author: CowboySmall
@@ -11,19 +11,19 @@ params:
   textPrimaryColor: '#292929'
   profile:
     enable: true
-    name: Simon Doe
-    tagline: Senior Software Engineer
+    name: Connor Hensel
+    tagline: Front End Web Developer
     avatar: avatar.png
   contact:
     enable: true
-    location: New York
+    location: Alabama
     list:
       # - icon: fas fa-phone-square
         # url: 'tel:#'
         # text: 0123 4567 87
       - icon: fas fa-envelope-square
         url: 'mailto:#'
-        text: simon.doe@yourwebsite.com
+        text: chensel0603@nacc.edu
       - icon: fas fa-globe
         url: '#'
         text: www.yourwebsite.com
@@ -32,28 +32,23 @@ params:
     list:
       - title: Technical
         items:
-          - details: JavaScript/Angular/React/Vue
-          - details: Python/Ruby/PHP
-          - details: Node.js/ASP.NET
-          - details: PostgreSQL/MySQL
+          - details: JavaScript/Vue
+          - details: Python
+          - details: Node.js
           - details: Object-oriented design
-          - details: Design and implement database structures
-          - details: Lead and deliver complex software systems
-      - title: Professional
+          - details: Design websites
+      - title: Strengths
         items:
           - details: Effective communication
-          - details: Team player
+          - details: Good under pressure
           - details: Strong problem solver
           - details: Good time management
   education:
     enable: true
     list:
-      - degree: MSc in Computer Science
-        university: University College London
-        dates: 2010 - 2011
-      - degree: BSc Maths and Physics
-        university: Imperial College London
-        dates: 2007 - 2010
+      - degree: Highschool Diploma
+        university: Cornerstone Christian Acedemy
+        dates: 2019-2023
   awards:
     enable: false
     list:
@@ -73,10 +68,10 @@ params:
   interests:
     enable: true
     list:
-      - name: Climbing
-      - name: Snowboarding
-      - name: Photography
-      - name: Travelling
+      - name: Running
+      - name: Guitar
+      - name: 3d Art
+      - name: Martial Arts
   summary:
     enable: true
     text: >-
@@ -91,9 +86,9 @@ params:
   experience:
     enable: true
     list:
-      - title: Senior Software Engineer
+      - title: JavaScript Self Taught
         dates: 2019 - Present
-        company: Google
+        company: Company Inc.
         details: >-
           Role description goes here ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -107,9 +102,9 @@ params:
           - details: 'Lorem ipsum dolor sit amet, consectetuer.'
           - details: Aenean commodo ligula eget dolor.
           - details: Etiam ultricies nisi vel augue.
-      - title: Lead Software Developer
-        dates: 2016 - 2019
-        company: Apple
+      - title: Python Self Taught
+        dates: 2018-Present
+        company: Company Inc.
         details: >-
           Role description goes here ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -119,36 +114,6 @@ params:
         items:
           - details: 'Lorem ipsum dolor sit amet, consectetuer.'
           - details: Aenean commodo ligula eget dolor.
-      - title: Senior Software Developer
-        dates: 2014 - 2016
-        company: Dropbox
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.
-      - title: Senior Developer
-        dates: 2013 - 2014
-        company: Uber
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus.
-      - title: Backend Developer
-        dates: 2014 - 2016
-        company: Amazon
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.
-      - title: Frontend Developer
-        dates: 2013 - 2014
-        company: Startup
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus.
   projects:
     enable: false
     list:
@@ -184,13 +149,13 @@ params:
     enable: true
     list:
       - icon: fab fa-github-square
-        url: //github.com/username
-        title: username
+        url: //github.com/ConnorHensel
+        title: ConnorHensel
       # - icon: fab fa-linkedin
         # url: //linkedin.com/in/username
         # title: username
       # - icon: fab fa-twitter-square
         # url: //twitter.com/username
-        # title: '@username'
+        # title: 'Connor Hensel'
   footer:
-    copyright: Simon Doe
+    copyright: Connor Hensel 2020
